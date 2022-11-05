@@ -1,0 +1,18 @@
+quarkus:
+  http:
+    port: 8082
+  mongodb:
+    database: Quarkus005
+    connection-string: mongodb://localhost:27017/
+  hibernate-orm:
+    database:
+      generation: update
+  datasource:
+    username: root
+    password: F123456@
+    jdbc:
+      url: jdbc:mysql://localhost:3306/prueba?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+      driver: com.mysql.cj.jdbc.Driver
+  rest-client:
+    post-proxy:
+      url: https://api.api-onepiece.com/
