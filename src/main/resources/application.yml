@@ -16,3 +16,9 @@ quarkus:
   rest-client:
     post-proxy:
       url: https://api.api-onepiece.com/
+mp:
+  jwt:
+    verify:
+      issuer: byte-company
+      publickey:
+        location: publickey.pem

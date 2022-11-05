@@ -7,6 +7,7 @@ import lombok.Data;
 import javax.enterprise.inject.Default;
 import javax.persistence.*;
 import java.io.Serializable;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.Null;
 @Entity
 @Table(name = "Personaje")
@@ -22,10 +23,10 @@ public class PersonajeEntity {
     private String  birthday;
     private String age;
     private String bounty;
+
     private String status;
 
     private Integer crewId;
     private Integer fruitId;
-
     private Integer ndFruitId;
 }

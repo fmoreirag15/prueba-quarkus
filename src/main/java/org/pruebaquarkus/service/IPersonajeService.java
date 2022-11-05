@@ -10,8 +10,7 @@ public interface IPersonajeService {
 
     List<PersonajeDto> findAll();
     PersonajeDto save(PersonajeDto personajeDto);
-
-
-
+    PersonajeDto update(PersonajeDto personajeDto);
     PersonajeDto findById(int id);
+    boolean delete(int id);
 }

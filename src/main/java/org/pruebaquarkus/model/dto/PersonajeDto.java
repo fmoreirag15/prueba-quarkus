@@ -17,6 +17,5 @@ public class PersonajeDto {
     private String status;
     private Integer crewId;
     private Integer fruitId;
-
     private Integer ndFruitId;
 }
